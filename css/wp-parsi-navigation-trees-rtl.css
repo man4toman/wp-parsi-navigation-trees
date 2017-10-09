@@ -1,0 +1,22 @@
+#wb_tree span{
+   margin-right: 0;
+   margin-left: 5px;
+}
+#wb_tree ul li{
+   margin-left: 0;
+   margin-right: 10px;
+}
+#wb_tree ul ul{
+   margin-left: 0;
+   border-left: 0;
+   margin-right: 7px;
+   border-right: 1px dashed gray;
+}
+#wb_tree ul ul li{
+   padding-left: 0;
+   padding-right: 10px;
+}
+#wb_tree ul ul li:before{
+   left: auto;
+   right: -10px;
+}
